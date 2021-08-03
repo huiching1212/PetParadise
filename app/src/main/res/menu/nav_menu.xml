@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:icon="@drawable/ic_baseline_pets_24"
+        android:title="@string/title_services">
+
+        <menu>
+
+            <item
+                android:id="@+id/groomingSalon"
+                android:title="Grooming Salon"/>
+
+            <item
+                android:id="@+id/trainingClasses"
+                android:title="Training Classes"/>
+
+            <item
+                android:id="@+id/petsHotelBoarding"
+                android:title="PetsHotel Boarding"/>
+
+            <item
+                android:id="@+id/petCareConsultant"
+                android:title="Pet Care Consultant"/>
+
+        </menu>
+
+    </item>
+
+    <item
+        android:icon="@drawable/ic_baseline_shopping_cart_24"
+        android:title="@string/title_shopping">
+
+        <menu>
+
+            <item
+                android:id="@+id/dog"
+                android:title="Dog"/>
+
+            <item
+                android:id="@+id/cat"
+                android:title="Cat"/>
+
+            <item
+                android:id="@+id/fish"
+                android:title="Fish"/>
+
+            <item
+                android:id="@+id/bird"
+                android:title="Bird"/>
+
+            <item
+                android:id="@+id/smallPet"
+                android:title="Small Pet"/>
+
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="@string/action_settings" />
+
+</menu>

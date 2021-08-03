@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/paymentFragment">
+
+    <dialog
+        android:id="@+id/paymentFragment"
+        android:name="com.example.petparadise.ui.activities.PaymentFragment"
+        android:label="PaymentFragment" >
+        <action
+            android:id="@+id/action_paymentFragment_to_addPaymentCardFragment"
+            app:destination="@id/addPaymentCardFragment" />
+    </dialog>
+    <dialog
+        android:id="@+id/addPaymentCardFragment"
+        android:name="com.example.petparadise.ui.activities.AddPaymentCardFragment"
+        android:label="AddPaymentCardFragment" >
+        <action
+            android:id="@+id/action_addPaymentCardFragment_to_paymentFragment"
+            app:destination="@id/paymentFragment" />
+    </dialog>
+</navigation>
